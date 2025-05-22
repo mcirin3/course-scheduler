@@ -2,7 +2,7 @@ import { initializeApp } from 'firebase/app';
 import { getAuth } from 'firebase/auth';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDmxUXh-vbSLLUSwgcvWpCJBu2YbZuT-2o",
+  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
   authDomain: "course-scheduler-7c9bd.firebaseapp.com",
   projectId: "course-scheduler-7c9bd",
   storageBucket: "course-scheduler-7c9bd.firebasestorage.app",
