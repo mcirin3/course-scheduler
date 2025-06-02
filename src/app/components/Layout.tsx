@@ -21,8 +21,9 @@ export default function Layout({ children, onSearch }: LayoutProps) {
     <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-4 w-full sm:w-auto sm:justify-end">
       <nav className="flex space-x-4">
         <Link href="/home">Home</Link>
-        <Link href="/login">Login</Link>
-        <Link href="/signup">Sign Up</Link>
+        <Link href="/login">About Us</Link>
+        <Link href="/create">Create a Plan</Link> 
+        <Link href ="/completed-courses">My Completed Courses</Link>
       </nav>
       {onSearch && (
         <div className="w-full sm:w-64 mt-2 sm:mt-0">
